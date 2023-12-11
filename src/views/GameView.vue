@@ -115,11 +115,11 @@
         </button>
       </div>
     </div>
+    <canvas
+      ref="confettiCanvas"
+      style="position: absolute; top: 0; left: 0; pointer-events: none"
+    ></canvas>
   </main>
-  <canvas
-    ref="confettiCanvas"
-    style="position: absolute; top: 0; left: 0; pointer-events: none"
-  ></canvas>
 </template>
 
 <style scoped>
