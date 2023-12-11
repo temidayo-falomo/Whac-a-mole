@@ -411,6 +411,7 @@ nav {
 
   .modal {
     width: 90%;
+    top: 50%;
   }
 
   .second-row {
