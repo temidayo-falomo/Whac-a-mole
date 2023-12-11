@@ -24,6 +24,7 @@ main {
   justify-content: center;
   height: 100vh;
   background-color: #afe57f;
+  padding: 0 2rem;
 }
 
 .col {
@@ -35,6 +36,7 @@ main {
 
 h2 {
   font-size: 12rem;
+  text-align: center;
 }
 
 /* CSS */
@@ -67,6 +69,12 @@ h2 {
   .button-74 {
     min-width: 120px;
     padding: 0 25px;
+  }
+}
+
+@media (max-width: 650px) {
+  h2 {
+    font-size: 6rem;
   }
 }
 </style>

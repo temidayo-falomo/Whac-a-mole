@@ -115,12 +115,11 @@
         </button>
       </div>
     </div>
-
-    <canvas
-      ref="confettiCanvas"
-      style="position: absolute; top: 0; left: 0; pointer-events: none"
-    ></canvas>
   </main>
+  <canvas
+    ref="confettiCanvas"
+    style="position: absolute; top: 0; left: 0; pointer-events: none"
+  ></canvas>
 </template>
 
 <style scoped>
@@ -387,6 +386,45 @@ nav {
   .button-74 {
     min-width: 120px;
     padding: 0 25px;
+  }
+}
+
+@media (max-width: 780px) {
+  main {
+    width: 100%;
+    margin: 0;
+    padding: 35px;
+  }
+  nav {
+    font-size: 2.5rem;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .score {
+    font-size: 2rem;
+  }
+
+  .modal {
+    width: 90%;
+  }
+
+  .second-row {
+    margin: 2rem auto;
+  }
+
+  .col {
+    width: 80px;
+    height: 80px;
+  }
+
+  .mole {
+    width: 60px;
+    top: 4.5rem;
   }
 }
 </style>
